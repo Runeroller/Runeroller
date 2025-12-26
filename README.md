@@ -1,25 +1,48 @@
+# Runeroller Modpack Core
 
-Installation information
-=======
+Welcome to the **Runeroller** core mod repository. This mod is the backbone of the Runeroller modpack, providing integrated systems for skills, quests, banking, and specialized progression mechanics.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## 🚀 Main Features
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+### 🏆 Comprehensive Skill System
+Train 14 unique skills up to level 99. Each skill provides a sense of progression and unlocks new capabilities:
+- **Combat:** Attack, Defence, Ranged, Hitpoints.
+- **Gathering:** Mining, Woodcutting, Digging, Fishing, Farming.
+- **Processing:** Smithing, Cooking, Fletching.
+- **Utility:** Agility, Magic.
+- **Perks:** Unlock and purchase unique perks (e.g., Treefeller, Headshots, Health Boosts) using coins earned through gameplay.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### ⚔️ Slayer System
+Accept contracts to hunt specific mobs.
+- Earn **Slayer XP** and **Coins** upon completion.
+- Unlock Slayer-specific perks like Strength (damage vs. targets) and Wisdom (bonus XP).
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### 📜 Questing
+Over **600 handcrafted quests** integrated with the modpack's content (Create, MineColonies, Iron's Spells, etc.).
+- Tiered progression from Easy to Grandmaster.
+- Rewards include coins and items.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+### 🏦 Global Bank & Shop
+- **Bank:** A centralized storage system accessible in civilizations. Upgrade your slots and stack limits!
+- **Shop:** Use earned coins to unlock restricted mod categories or purchase essential items.
+
+### 🏘️ Location-Based Gameplay
+- The Mod Menu (Bank, Shop, Quests) is restricted to **Villages** and **Minecolonies**.
+- Ground your progression in the world's civilizations.
+
+## 🛠️ Controls
+- **Press `K`**: Open the Runeroller Mod Menu (Only works in Villages/Minecolonies).
+
+## 📥 Installation
+1. Ensure you have **NeoForge 1.21.1** installed.
+2. Place the `runeroller-x.x.x.jar` in your `mods` folder.
+3. This mod requires the **Runeroller Coins** library to function.
+
+## 💻 Development
+Built with **NeoForge**.
+- **Java Version:** 21
+- **Minecraft Version:** 1.21.1
+- **Mappings:** Parchment 2024.11.17
+
+---
+*Created for the Runeroller Modpack Experience.*
